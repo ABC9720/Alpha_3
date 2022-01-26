@@ -24,7 +24,7 @@
 #         print(num)
 
 """ traversing through strings """
-# string = "python"
+string = "python"
 
 # for item in range(len(string)):
 #     print(string[item], end=" ")
@@ -33,7 +33,7 @@
 #     print(char, end=" ")
 
 """ traversing through lists """
-# list_ = [10, 20, 30, 40]
+list_ = [10, 20, 30, 40]
 #
 # for ele in list_:
 #     print(ele, end=" ")
