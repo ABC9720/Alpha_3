@@ -100,13 +100,44 @@ list_ = [10, 20, 30, 40]
 
 """ print the digits in the string """
 s = "hello 123 hai4%978"
-count = 0
+# count = 0
+#
+# for char in s:
+#     if "0" <= char <= "9":  # if char.isdigit():
+#         count += 1
 
-for char in s:
-    if "0" <= char <= "9":  # if char.isdigit():
+# print(count)
+
+
+
+###################
+
+string = "hai#4(&*"
+
+count = 0
+for char in string:
+    if not ("a" <= char <= "z" or "A" <= char <= "Z" or "0" <= char <= "9"):
         count += 1
 
 # print(count)
+
+""" capital and small letters """
+
+s = "PyTHoN"
+cap_count = 0
+small_count = 0
+
+for char in s:
+    if "a" <= char <= "z":
+        small_count += 1
+    elif "A" <= char <= "Z":
+        cap_count += 1
+
+print(cap_count, small_count)
+
+
+
+
 
 
 
