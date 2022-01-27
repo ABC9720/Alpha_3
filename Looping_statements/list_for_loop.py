@@ -85,7 +85,110 @@
 
 """ print the strings with even length """
 
-l = ["python", "Node JS", "selenium", "Java"]
+# l = ["python", "Node JS", "selenium", "Java"]
+# res = []
+# for item in l:
+#     if len(item) % 2 == 0:
+#         res.append(item)
+#     else:
+#         res.append(item[::-1])
+
+# print(res)
+
+""" reverse string elements or else keep it as it is"""
+
+# list_ = ["Java", "Python", 10, True, 1.4, "c++", "ruby"]
+# res = []
+# for item in list_:
+#     if isinstance(item, str):
+#         res.append(item[::-1])
+#     else:
+#         res.append(item)
+
+# print(res)
+
+""" print if the element is starting with vowel """
+
+# files = ["Amazon", "flipkart", "walmart", "gmail", "yahoo"]
+
+# for ele in files:
+#     if ele[0].lower() in "aeiou":
+#         print(ele)
+
+""" print all the extensions in the following list """
+
+# files = ["youtube.txt", "amazon.pdf", "apple.xls", "flipkart.in"]
+
+# for file in files:
+#     a = file.split(".")
+#     print(a[-1])
+
+""" printing file name with odd length """
+
+# files = ["youtube.txt", "amazon.pdf", "apple.xls", "flipkart.in"]
+
+# for item in files:
+#     a = item.split(".")
+#     if len(a[0]) % 2 == 0:
+#         pass
+#     else:
+#         print(a[0])
+
+""" index of first occurrence of the given element in the list"""
+
+# numbers = [10, 40, 20, 80, 20, 40, 30]
+# num = 60
+
+# for index, item in enumerate(numbers):
+#     if item == num:
+#         print(f"{num} is present at the index {index}")
+#         break
+#
+# else:
+#     print("element is not present")
+
+""" check if the number is a prime number """
+
+# n = 15
+
+# for i in range(2, n):
+#     if n % i == 0:
+#         print("not prime")
+#         break
+# else:
+#     print("prime")
+
+""" to generate prime number series"""
+# l = [1, 5, 8, 6, 3, 98, 12, 5]
+
+# for n in range(10):
+#     if n > 1:
+#         for i in range(2, n):
+#             if n % i == 0:
+#                 break
+#         else:
+#             print(n)
+
+""" print the elements other than the given element"""
+# numbers = [10, 40, 20, 80, 20, 40, 30]
+# n = 20
+#
+# for num in numbers:
+#     if n == num:
+#         continue
+#     print(num)
+
+""" print the palindromes in the given list """
+l = ["python", "dad", "hai", "malayalam", "madam", "mom"]
+
+# for element in l:
+#     if element == element[::-1]:
+#         print(element)
+
+
+
+
+
 
 
 
