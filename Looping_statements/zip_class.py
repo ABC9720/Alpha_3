@@ -19,7 +19,7 @@ from itertools import zip_longest
 for i1, i2 in zip_longest(s, s1, fillvalue="not present"):
     print(i1, i2)
 
-zip()
+# zip()
 
 
 
