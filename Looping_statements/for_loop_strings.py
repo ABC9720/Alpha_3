@@ -123,17 +123,78 @@ for char in string:
 
 """ capital and small letters """
 
-s = "PyTHoN"
-cap_count = 0
-small_count = 0
+# s = "PyTHoN"
+# cap_count = 0
+# small_count = 0
+#
+# for char in s:
+#     if "a" <= char <= "z":
+#         small_count += 1
+#     elif "A" <= char <= "Z":
+#         cap_count += 1
+#
+# print(cap_count, small_count)
+
+""" count of consonants """
+s = "hai12 hello952 python#@$"
+count = 0
 
 for char in s:
-    if "a" <= char <= "z":
-        small_count += 1
-    elif "A" <= char <= "Z":
-        cap_count += 1
+    # if char.isalpha():
+    if "a" <= char <= "z" or "A" <= char <= "Z":
+        if char not in "aeiouAEIOU":
+            # print(char, end="")
+            count += 1
+# print()
+# print(count)
 
-print(cap_count, small_count)
+""" char and its index """
+
+s = "hai hello how are you"
+char = "e"
+
+# using range()
+# for i in range(len(s)):
+#     if char == s[i]:
+#         print(f"{char} is present at index {i}")
+#         break
+# print()
+
+# using enumerate()
+
+# for index, item in enumerate(s):
+#     if char == item:
+#         print(f"{char} is present at index {index}")
+#         break
+
+
+n = 6
+for num in range(10):
+    if num == n:
+        continue
+    print(num)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

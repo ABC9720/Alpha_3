@@ -16,8 +16,8 @@ b = 20
 # value = input("enter a value:")
 #
 # print("value is", value)
-a = "ram"
-b = 10
+# a = "ram"
+# b = 10
 
 # print("my name is", a, end=" ")
 # print("I am", b, "years old")
@@ -25,14 +25,8 @@ b = 10
 # print("my name is", a, sep="$$", end=" ")
 # print("I am", b, "years old", sep="$$")
 
-print("my name is", a, end="$$")
-print("I am", b, "years old")
-
-
-
-
-
-
+# print("my name is", a, end="$$")
+# print("I am", b, "years old")
 
 
 
