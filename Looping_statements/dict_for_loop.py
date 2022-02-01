@@ -248,19 +248,19 @@
 
 """ flip key and value """
 
-d = {"a": 1, "b": 2, "c": 3}
-d1 = {}
-for key in d:
-    value = d[key]
-    d1[value] = key
-
-print(d1)
+# d = {"a": 1, "b": 2, "c": 3}
+# d1 = {}
+# for key in d:
+#     value = d[key]
+#     d1[value] = key
+#
+# print(d1)
 # using d.items()
-d2 = {}
-for key, value in d.items():
-    d2[value] = key
-
-print(d2)
+# d2 = {}
+# for key, value in d.items():
+#     d2[value] = key
+#
+# print(d2)
 
 
 

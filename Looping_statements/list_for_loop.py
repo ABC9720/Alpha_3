@@ -1,11 +1,11 @@
-# l = ["python", 10, 3.2, "selenium", "Java"]
+l = ["python", 10, 3.2, "selenium", "Java"]
 
 """ traversing through list """
 
-# for item in l:
-#     print(item, end=" ")
-#
-# print()
+for item in l:
+    print(item, end=" ")
+
+print()
 #
 # for i in range(len(l)):
 #     print(l[i], end=" ")
