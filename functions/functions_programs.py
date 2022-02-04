@@ -83,6 +83,33 @@ def iterable_length(*args):
 # iterable_length(1, "hello", (1, 2, 3), 19.5, 1 +4j)
 
 
+def squares(n):
+    i = 0
+    l = []
+    while i <= n:
+        sq = int(i ** 0.5)
+        if sq * sq == i:
+            l.append(i)
+        i += 1
+
+    return l
+# print(squares(10))
+
+def spam(name="steve"):
+    print(name)
+
+# spam(0)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
