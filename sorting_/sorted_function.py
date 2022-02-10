@@ -3,8 +3,7 @@ s = "hello"
 # print(sorted(s))
 
 l = [5, 4, 8, 6, 1, 9, 11, 7]
-# print(sorted(l))
-
+print(sorted(l))
 l = ["python", "java", "c", "ruby", "perl"]
 # print(sorted(l))
 
